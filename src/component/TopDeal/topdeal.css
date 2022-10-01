@@ -1,0 +1,50 @@
+.todeal_left{
+    display: flex;
+    align-items: center;
+}
+.todeal_left p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.todeal_left .link{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #007185;
+}
+.todeal_left .link:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(244, 62, 62);
+}
+.topdeal_right{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-x: auto;
+}
+
+.topdeal_right .link{
+    margin-right:20px;
+    text-decoration: none;
+    font-size: 13px;
+    width: 540px;
+}
+.topdeal_right .link img{
+    object-fit: cover;
+}
+.topdeal_right .span1{
+    font-weight: bold;
+    color: white;
+    padding: 2px 3px;
+    margin: 3px;
+    border-radius: 2px;
+    background-color: #CC0C39;
+}
+.topdeal_right .span2{
+    font-weight: bold;
+    color: #CC0C39;
+    
+}

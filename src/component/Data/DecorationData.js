@@ -1,0 +1,71 @@
+
+const DecorationData=[
+    {
+        image:"./images/decoration1.jpg",
+        name:"kanchan"
+    },
+    {
+        image:"./images/decoration2.jpg",
+        name:"kanchan2"
+    },
+    {
+        image:"./images/decoration3.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration4.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration5.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration6.jpg",
+        name:"kanchan2"
+    },
+    {
+        image:"./images/decoration7.jpg",
+        name:"kanchan1"
+    },
+    
+    {
+        image:"./images/decoration9.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration10.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration11.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration12.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration13.jpg",
+        name:"kanchan1"
+    },
+    
+    {
+        image:"./images/decoration15.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration16.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration17.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/decoration18.jpg",
+        name:"kanchan1"
+    }
+]
+
+export default DecorationData

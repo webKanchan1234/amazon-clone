@@ -1,0 +1,459 @@
+  .home-img {
+    /* max-width: 98%; */
+  }
+  .image {
+    display: none;
+  }
+  .imgWrapper {
+    top: 50px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  @keyframes blender {
+    0% {
+      opacity: 1;
+      transform: translate(-20px);
+    }
+    30% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-5px);
+    }
+  }
+  .imageActive {
+    float: left;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    box-sizing: border-box;
+    opacity: 0;
+    animation: blender 5s ease-out 50ms;
+    box-sizing: '0px 0px 90px red';
+  }
+.overlay{
+    position: absolute;
+    top: 710px;
+    width: 100%;
+    height: 3500px;
+    opacity: 0.4;
+    background-image: linear-gradient(180deg, rgb(220, 216, 216), rgb(157, 154, 154));
+    box-shadow: 0px 0px 815px 330px #f5f5f5 !important;
+    /* margin: 10px; */
+}
+.card{
+    position: absolute;
+    top: 320px;
+    width: 96.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 14px;
+    height: 400px;
+    padding: 1vmax;
+}
+.travel{
+    /* width: 21%;
+    height: 450px;
+    background-color: white;
+    margin: 8px;
+    padding: 1vmax; */
+
+    position: absolute;
+    top: 820px;
+    width: 96.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 14px;
+    height: 400px;
+    padding: 1vmax;
+    
+}
+.travel_img .link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.travel h1{
+    font-size: 20px;
+}
+.travel .travel_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flight,.bus,.train,.tour{
+    width: 150px;
+    
+}
+.img_div{
+    margin: 5px;
+    margin-bottom: -10px;
+    /* position: relative; */
+}
+.flight_img{
+    width: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    /* top: 300px; */
+}
+
+.img_div p{
+    font-size: 12px;
+    text-decoration: none;
+    /* position: absolute; */
+    /* top: 80px; */
+}
+.img_div p{
+    font-size: 12px;
+}
+.img_div p{
+    font-size: 12px;
+}
+.img_div p{
+    font-size: 12px;
+}
+.btn-primary{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #007185;
+}
+.btn-primary:hover{
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(244, 62, 62);
+}
+
+
+
+
+.amazonseliya{
+    width: 21%;
+    height: 450px;
+    background-color: white;
+    margin: 8px;
+    padding: 1vmax;
+}
+.amazonseliya h1{
+    font-size: 20px;
+}
+.fest_img{
+    width: 100%;
+    height: 75%;
+}
+.fest_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.pre_booking{
+    width: 21%;
+    height: 450px;
+    background-color: white;
+    margin: 8px;
+    padding: 1vmax;
+}
+.pre_booking h1{
+    font-size: 20px;
+}
+
+
+
+.sign_in{
+    width: 21%;
+    /* height: 400px; */
+    /* background-color: rgb(149, 142, 142); */
+    margin: 8px;
+    padding: 1vmax 2vmax 0vmax 1vmax;
+}
+.sign_in1{
+    width: 94%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vmax;
+    margin-right: 3vmax;
+    margin-bottom: 10px;
+}
+.sign_in1 h1{
+    font-size: 24px;
+    color: rgb(34, 33, 33);
+}
+.sign{
+    background-color: #FCD200;
+    width: 80%;
+    border-radius: 15px;
+    padding: 0.3vmax 1vmax;
+    text-align: center;
+    color: black;
+}
+
+.sign_in2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign_in2 .img{
+    width: 85%;
+    height: 100%;
+}
+
+.furniture{
+    position: absolute;
+    width: 96.5%;
+    align-items: center;
+    margin: 20px 14px!important;
+    height: 300px;
+    background-color: white;
+    top: 1410px;
+    padding: 1vmax;
+}
+.mobile{
+    position: absolute;
+    width: 96.5%;
+    align-items: center;
+    margin: 0 14px;
+    height: 350px;
+    background-color: white;
+    top: 1800px;
+    padding: 1vmax;
+}
+.blockbuster{
+    position: absolute;
+    width: 96.5%;
+    align-items: center;
+    margin: 0 14px;
+    height: 350px;
+    background-color: white;
+    top: 2200px;
+    padding: 1vmax;
+}
+.decoration{
+    position: absolute;
+    width: 96.5%;
+    align-items: center;
+    margin: 0 14px;
+    height: 300px;
+    background-color: white;
+    top: 2600px;
+    padding: 1vmax;
+}
+.card1{
+    position: absolute;
+    width: 96.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 14px;
+    height: 400px;
+    top: 2990px;
+    padding: 1vmax;
+}
+.kitchen{
+    position: absolute;
+    width: 96.5%;
+    align-items: center;
+    margin: 0 14px;
+    height: 300px;
+    background-color: white;
+    top: 3480px;
+    padding: 1vmax;
+}
+
+
+
+
+@media screen and (max-width: 667px){
+    .home-img {
+        max-width: 100%;
+      }
+      
+      .imgWrapper {
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+      }
+      /* @keyframes blender {
+        0% {
+          opacity: 1;
+          transform: translate(-25px);
+        }
+        30% {
+          opacity: 1;
+        }
+        70% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+          transform: translate(-10px);
+        }
+      } */
+      .imageActive {
+        width: 100vw;
+        height: 25vh;
+      }
+      .overlay{
+        top: 100px;
+        width: 100%;
+        height:800px;
+        opacity: 0.4;
+        
+    }
+    .card{
+        top: 80px;
+        left: 0;
+    }
+    .disp{
+      display: block;
+    }
+    .travel{
+        width: 30%;
+        height: auto;
+        margin: 1px;
+        padding: 0.1vmax;
+        
+    }
+    .travel_img .link{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .travel h1{
+        font-size: 7px;
+    }
+    .travel .travel_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .flight,.bus,.train,.tour{
+        width: 45px;
+        
+    }
+    .img_div{
+        margin: 5px;
+        margin-bottom: -10px;
+        /* position: relative; */
+    }
+    .flight_img{
+        width: 100%;
+        object-fit: cover;
+        /* position: absolute; */
+        /* top: 300px; */
+    }
+    
+    .img_div p{
+        font-size: 7px;
+        text-decoration: none;
+        /* position: absolute; */
+        /* top: 80px; */
+    }
+    .img_div p{
+        font-size: 7px;
+    }
+    .img_div p{
+        font-size: 7px;
+    }
+    .img_div p{
+        font-size: 7px;
+    }
+    .btn-primary{
+        font-size: 5px;
+    }
+    .btn-primary:hover{
+        text-decoration: underline;
+        font-size: 7px;
+        font-weight: bold;
+        color: rgb(244, 62, 62);
+    }
+    
+    
+    
+    
+    .amazonseliya{
+      width: 30%;
+      height: auto;
+      margin: 1px;
+      padding: 0.1vmax;
+    }
+    .amazonseliya h1{
+        font-size: 7px;
+    }
+    .fest_img{
+        width: 100%;
+        height: 40px;
+    }
+    .fest_img img{
+        width: 100%;
+        /* height: 100%; */
+        object-fit: cover;
+    }
+    
+    
+    
+    .pre_booking{
+        width: 30%;
+        height: auto;
+        margin: 2px;
+        padding: 0.2vmax;
+    }
+    .pre_booking h1{
+        font-size: 7px;
+    }
+    
+    
+    
+    .sign_in{
+        width: 21%;
+        /* height: 400px; */
+        /* background-color: rgb(149, 142, 142); */
+        margin: 2px;
+        padding: 0.1vmax;
+    }
+    .sign_in1{
+        width: 94%;
+        height: auto;
+        
+        padding: 0.1vmax;
+        margin-right: 0.1vmax;
+        margin-bottom: 5px;
+    }
+    .sign_in1 h1{
+        font-size: 7px;
+    }
+    .sign{
+        width: 80%;
+        border-radius: 15px;
+        padding: 0.1vmax 0.2vmax;
+        
+    }
+    
+    .sign_in2{
+        width: 30px;
+        
+    }
+    .sign_in2 .img{
+        width:30px;
+        height: 30px;
+    }
+    
+}

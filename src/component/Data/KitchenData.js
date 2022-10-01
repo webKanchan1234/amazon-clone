@@ -1,0 +1,62 @@
+
+const KitchenData=[
+    {
+        image:"./images/kitchen1.jpg",
+        name:"kanchan"
+    },
+    {
+        image:"./images/kitchen2.jpg",
+        name:"kanchan2"
+    },
+    {
+        image:"./images/kitchen3.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen4.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen5.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen6.jpg",
+        name:"kanchan2"
+    },
+    {
+        image:"./images/kitchen7.jpg",
+        name:"kanchan1"
+    },
+    
+    {
+        image:"./images/kitchen9.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen10.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen11.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen12.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen13.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen14.jpg",
+        name:"kanchan1"
+    },
+    {
+        image:"./images/kitchen15.jpg",
+        name:"kanchan1"
+    }
+]
+
+export default KitchenData

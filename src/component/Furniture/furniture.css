@@ -1,0 +1,30 @@
+.furniture_left{
+    display: flex;
+    align-items: center;
+}
+.furniture_left p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.furniture_left .link{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #007185;
+}
+.furniture_left .link:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(244, 62, 62);
+}
+.furniture_right{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-x: auto;
+}
+.furniture_right .link{
+    margin-right:20px;
+}
